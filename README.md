@@ -55,7 +55,7 @@ mirai-api-http的配置文件，在config\net.mamoe.mirai-api-http里
 
 配置如下：
 
-
+```  
 adapters:
 
   - ws
@@ -79,6 +79,7 @@ adapterSettings:
     port: 8008
     
     reservedSyncId: -1
+```  
     
 ## 最后是如何使用
 
