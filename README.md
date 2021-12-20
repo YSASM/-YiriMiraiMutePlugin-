@@ -11,7 +11,7 @@ pip install yiri-mirai
 
 ## 4.bot.py配置：
 
-
+```  
 from mirai import Mirai, WebSocketAdapter,GroupMessage
 
 from plugins.pyPlugins import jytime#这样的方式引用插件
@@ -47,6 +47,7 @@ if __name__ == '__main__':
     '''
     
     bot.run()
+```  
     
 ## 5.setting.yum
 
