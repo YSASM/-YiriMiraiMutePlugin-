@@ -9,7 +9,8 @@ pip install yiri-mirai
 
 ## 3.在plugins目录下建立一个pyPlugins文件夹，将jytime.py放进去
 
-## 4.bot.py配置
+## 4.bot.py配置：
+
 
 from mirai import Mirai, WebSocketAdapter,GroupMessage
 
@@ -52,6 +53,7 @@ if __name__ == '__main__':
 mirai-api-http的配置文件，在config\net.mamoe.mirai-api-http里
 
 配置如下：
+
 
 adapters:
 
