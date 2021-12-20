@@ -19,7 +19,7 @@ def main(bot):
     async def send_group_message(event: GroupMessage):
         async def Do(string_time,groupid,id):
             if string_time == 'd':
-                day = RandomNum(30)
+                day = RandomNum(29)
                 hour = RandomNum(23)
                 minuts = RandomNum(59)
                 s = day*24*60*60+hour*60*60+minuts*60
