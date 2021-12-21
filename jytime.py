@@ -1,4 +1,3 @@
-from os import replace
 from mirai import GroupMessage
 import random
 day = 0
